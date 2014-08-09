@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Z-Reader</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="open_file">打开文件</string>
+    <string name="exit">退出程序</string>
+    <string name="up_one_level">..(返回上一级目录)</string>
+    <string name="current_dir">.(刷新)</string>
+    <string name="set_font_color">字体颜色</string>
+    <string name="set_font_size">字体大小</string>
+    <string name="set_screen_light">屏幕亮度</string>
+    <string name="set_background">背景主题</string>
+    <string name="set_page_effect">翻页效果</string>
+    <string name="mode_paper">纸张模式</string>
+    <string name="mode_slide">滑动模式</string>
+
+</resources>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<lint>
+    <issue id="DefaultLocale">
+        <ignore path="src/com/zzj/z_reader/view/ColorPickerView.java" />
+    </issue>
+    <issue id="DrawAllocation">
+        <ignore path="src/com/zzj/z_reader/view/ColorPickerView.java" />
+    </issue>
+    <issue id="UsesMinSdkAttributes">
+        <ignore path="AndroidManifest.xml" />
+    </issue>
+    <issue id="WrongCall">
+        <ignore path="src/com/zzj/z_reader/component/MyPaperTextShow.java" />
+    </issue>
+</lint>

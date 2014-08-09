@@ -1,0 +1,44 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <item
+        android:id="@+id/action_open"
+        android:icon="@drawable/icon_open"
+        android:showAsAction="always"
+        android:title="@string/app_name"/>
+    <item
+        android:id="@+id/action_setting"
+        android:icon="@drawable/icon_settings"
+        android:showAsAction="always"
+        android:title="@string/app_name">
+        <menu>
+            <group>
+                <item
+                    android:id="@+id/set_font_color"
+                    android:icon="@drawable/icon_set_font_color"
+                    android:title="@string/set_font_color"/>
+                <item
+                    android:id="@+id/set_font_size"
+                    android:icon="@drawable/icon_set_font_size"
+                    android:title="@string/set_font_size"/>
+                <item
+                    android:id="@+id/set_screen_light"
+                    android:icon="@drawable/icon_set_screen_light"
+                    android:title="@string/set_screen_light"/>
+                <item
+                    android:id="@+id/set_background"
+                    android:icon="@drawable/icon_set_background"
+                    android:title="@string/set_background"/>
+                <item
+                    android:id="@+id/set_page_effect"
+                    android:icon="@drawable/icon_set_page_effect"
+                    android:title="@string/set_page_effect"/>
+            </group>
+        </menu>
+    </item>
+    <item
+        android:id="@+id/action_exit"
+        android:icon="@drawable/icon_exit"
+        android:showAsAction="always"
+        android:title="@string/app_name"/>
+
+</menu>
